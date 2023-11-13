@@ -7,11 +7,11 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-final int PRODUCT_COUNT = 5; 
+final int PRODUCT_COUNT = 6; 
 		
 		Random rnd = new Random();
-		String[] nameList = {"arance", "pomodoro", "latte", "burro", "miele"};
-		String[] descrizioneList = {"Dolce", "buono", "cremoso", "molto buono", "biologico"};
+		String[] nameList = {"Cioccolato", "Pomodoro", "Latte", "Burro", "Miele", "Cafe"};
+		String[] descrizioneList = {"Dolce", "Buono", "Cremoso", "molto buono", "Naturale", "Delizioso"};
 		for (int x =0; x < PRODUCT_COUNT; x++) {
 			
 			String randomName = nameList[rnd.nextInt(nameList.length)];
