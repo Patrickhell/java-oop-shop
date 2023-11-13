@@ -7,7 +7,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-final int PRODUCT_COUNT = 40; 
+final int PRODUCT_COUNT = 5; 
 		
 		Random rnd = new Random();
 		String[] nameList = {"arance", "pomodoro", "latte", "burro", "miele"};
